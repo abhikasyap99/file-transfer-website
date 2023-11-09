@@ -90,6 +90,5 @@ def a12(e):
 @app.errorhandler(501)
 def a12(e):
 	return render_template("err.html",err="501")
-
-if __name__ == '__main__':
-	app.run(debug=False,port=5001)
+if __name__ == ‘__main__’:
+   app.run(debug=True, port=port_number)
