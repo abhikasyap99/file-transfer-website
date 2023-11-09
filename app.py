@@ -9,7 +9,7 @@ import qrcode
 
 app = Flask(__name__, static_folder="static",template_folder=os.getcwd())
 
-url="http://localhost:5000/"
+url="http://localhost:8080/"
 
 #This function is created to delete first 4 files in directory in order to sustain server space
 def dtl():
